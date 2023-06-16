@@ -36,13 +36,14 @@
 }
 
 .lista__menu,
-.lista__menu-item {
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
@@ -51,4 +52,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
