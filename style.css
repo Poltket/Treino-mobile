@@ -5,8 +5,10 @@
     --cor-de-fundo:#EBECEE;
     --branco:#ffffff;
     --laranja: #EB9B00;
+    --preto:#000000;
     --azul-degrade: #1d3c8e;
     --fonte-principal:"Poppins";
+    --fonte-secundaria:"Josefin Sans";
 }
 body{
     background-color: var(--cor-de-fundo);
