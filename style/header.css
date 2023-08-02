@@ -66,6 +66,10 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     
     .container__titulo,
@@ -121,5 +125,17 @@
         align-items: center;
         text-decoration: none;
         color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
